@@ -18,6 +18,7 @@ With its advanced AI algorithms and vast music library, Moodify is the perfect t
 2. The second part is the usage of Unsupervised Machine Learning techniques for clustering songs.The songs are clustered as either of the two classes-'VERY ENTERTAINING'(class 0) and 'RELAXED'(class 1) using the popular K-means algorithm. Then the recommendation is made in order of the current popularity of the respective songs.
 3. We have an unique story in the way we recommend the songs for each mood, for example when other sites recommend sad songs when a person is sad or feeling bad, we recommend users with songs which will cheer them up('VERY ENTERTAINING') and 'RELAXING' songs when they are 'HAPPY'.
 4. The code to train the neural network can be found in the 'Emotion_detector_version2' iPython notebook. If anyone wants to modify the network to suit their particular needs or feel it is necessary to tweak the network they can do so by making changes to the code present there. The model created is saved as 'final_model.h5'
+5. •	In last part the model will provide us list of song that is based on user  mood  by detecting user face,for ex- If the user is happy the model will detect and will provide a list of happy songs of that particular singer from list of all songs of that singer. 
 
 
 # DATA :
