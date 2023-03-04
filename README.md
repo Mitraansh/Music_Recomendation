@@ -1,5 +1,16 @@
 # Mood based Music Recommender System
 
+# ABSTRACT :
+
+1. Song recommendation existed for a long time, in the majority of the scenarios the recommendation is determined after learning the user preferences over a period of time, like looking at the past history of the song preferences.
+
+2. "Songs on Mood" - an innovative app/website which uses the power of AI and machine learning algorithms to suggest songs based on your mood. With Moodify, we can discover new music that matches your current emotional state, whether we are feeling happy, sad, relaxed, or energized. The app's intuitive interface allows us to simply select our current mood, and Moodify will generate a custom playlist of songs tailored to our preferences.
+
+3. But Moodify doesn't stop there - it also responds to voice commands, allowing us  to change songs, skip tracks, or pause playback without ever having to touch your device. With Moodify, you can enjoy your favorite music hands-free, and let the app do the work of finding the perfect song for our current mood.
+With its advanced AI algorithms and vast music library, Moodify is the perfect tool for music lovers everywhere. Whether we are  looking to discover new music or just need a little help finding the right song for our current mood, Moodify has got us covered.
+
+4. We are using  user input app which takes input from the user following that we have  used   Spotify Api  . For training purpose we are taking the spotify dataset from Kaggle ,and with the spotify Api the demand that user has made for specified singer is stored, later on we will use  the playlist of that singer  that is provided from the bot ,which later work upon the recognition of  mood dependent on the voice of the person and points to the playlist for the situation like what type of mood they have at that time. 
+
 # DESCRIPTION :
 
 
