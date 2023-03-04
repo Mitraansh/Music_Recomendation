@@ -1,6 +1,4 @@
-# Emotion based Music Recommender System
-
-![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)
+# Mood based Music Recommender System
 
 # ABSTRACT :
 
