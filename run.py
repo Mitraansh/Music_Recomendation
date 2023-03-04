@@ -12,7 +12,7 @@ from emotion_video_classifier import emotion_testing
 import tkinter as tk
 from tkinter import messagebox
 import configparser
-
+#can add more feature
 config = configparser.ConfigParser()
 config.read('config.ini')
 
