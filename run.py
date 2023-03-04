@@ -25,7 +25,7 @@ root.geometry("600x400")
 root.configure(bg='black')
 name1 = tk.StringVar()
 
-photo = PhotoImage(file="musicback.jpg")
+photo = PhotoImage(file="musician.jpg")
 l = tk.Label(root, image=photo)
 l.image = photo  # just keeping a reference
 l.grid()
@@ -227,7 +227,6 @@ def final():
     else:
         print('emotion detected is HAPPY')
 
-
 emotion_word = (emotion_testing())
 if emotion_word == 'sad':
     emotion_code = 0
@@ -257,7 +256,7 @@ quitWindow = tk.Button(window, text="Quit",
                        font=('times', 15, ' bold '))
 quitWindow.place(x=1100, y=500)
 
-image1 = Image.open("musicimg (1).jpg")
+image1 = Image.open("musician.jpg")
 test = ImageTk.PhotoImage(image1)
 
 label1 = tk.Label(image=test)
